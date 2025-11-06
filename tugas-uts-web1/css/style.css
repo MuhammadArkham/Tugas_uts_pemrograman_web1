@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+
+    --arkham-green-dark: #143A2C;   
+    --arkham-green-light: #5DB933; 
+    --arkham-text-light: #555555;  
+    
+    --arkham-border-color: #EEEEEE; 
+    --arkham-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa7e; 
+}
+
+.btn-primary {
+    background-color: var(--arkham-green-dark);
+    border-color: var(--arkham-green-dark);
+    border-radius: var(--arkham-radius); 
+}
+.btn-primary:hover {
+    background-color: #0E2A20; 
+    border-color: #0E2A20;
+}
+
+.btn-success {
+    background-color: var(--arkham-green-light);
+    border-color: var(--arkham-green-light);
+    color: #1F2937; 
+    border-radius: var(--arkham-radius); 
+}
+.btn-success:hover {
+    background-color: #4C9F2A; 
+    border-color: #4C9F2A;
+    color: #1F2937;
+}
+
+.btn-outline-primary {
+    color: var(--arkham-green-dark);
+    border-color: var(--arkham-green-dark);
+    border-radius: var(--arkham-radius);
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: var(--arkham-green-dark);
+    border-color: var(--arkham-green-dark);
+}
+.btn-outline-danger {
+     border-radius: var(--arkham-radius); 
+}
+
+.text-primary,
+.text-primary:hover,
+.card-title.text-primary,
+.nav-link.active,
+.page-link {
+    color: var(--arkham-green-dark) !important;
+}
+
+.bg-primary {
+    background-color: var(--arkham-green-dark) !important;
+}
+
+.page-link:hover {
+    color: #0E2A20 !important; 
+}
+
+
+.form-control, .form-select {
+    border-radius: var(--arkham-radius); 
+    border-color: var(--arkham-border-color);
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--arkham-green-light);
+
+    box-shadow: 0 0 0 0.25rem rgba(93, 185, 51, 0.25); 
+}
+
+.logo-img {
+    height: 35px;
+}
+.login-logo-img {
+    height: 70px;
+    margin-bottom: 1rem;
+}
+
+.card {
+    border-radius: var(--arkham-radius) !important; 
+    border: 1px solid var(--arkham-border-color) !important; 
+    box-shadow: var(--arkham-shadow) !important; 
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+/* Hover card kini menggunakan border Hijau Cerah */
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.09) !important;
+    border-color: var(--arkham-green-light) !important;
+}
+
+.cart-item-image {
+    width: 60px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 6px; 
+}
