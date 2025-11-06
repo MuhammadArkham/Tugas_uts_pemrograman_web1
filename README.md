@@ -1,1 +1,11 @@
-# Tugas_uts_pemrograman_web1
+Nama : Muhammad Arkhamullah Rifai Asshidiq
+
+NIM : 312410545
+
+Kelas : TI.24.A.5
+
+Matkul : Pemograman Web
+
+Dosen Pengampu : Agung Nugroho, S.Kom., M.Kom.
+
+LI
